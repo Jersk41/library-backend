@@ -24,15 +24,19 @@ let checkboxes = document.querySelectorAll('input[type=checkbox]'),
 //     });
 //     i++;
 // });
-
-function getBox(){
-    return box;
-}
-
+let i = 0;
 let ls = document.querySelectorAll('.list-group-item');
-ls.forEach(function (check){
-    let box = check.children[0].children[1];
-    check.addEventListener('change',(ev)=>{
-        console.log(box);
-    });
-});
+// ls.forEach(
+    // function (check){
+    // let box = check.children[i].children[0];
+    // if (check.children[i].children[0].checked) {
+    //     alert("dicentang");
+    // }
+    // console.log(box);
+    // check.addEventListener('change',(ev)=>{
+    //     console.log(ev);
+    // });
+    // i++;
+// }
+// );
+
